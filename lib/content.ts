@@ -127,9 +127,10 @@ export const projectGroups: ProjectGroup[] = [
       {
         title: "DialecTrek",
         description:
-          "Multilingual language-learning platform with a server-rendered Next.js frontend and FastAPI backend, starting with a verb conjugation drill tool built to expand into vocabulary, grammar, and more.",
-        outcome: "Under active development, with new languages and features shipping regularly.",
-        stack: ["Next.js 16", "TypeScript", "React 19", "Vitest", "FastAPI", "Python", "Pydantic", "Docker", "AWS Lambda"],
+          "Multilingual language-learning platform for Spanish and French with a server-rendered Next.js frontend and FastAPI backend. Learners watch native-speaker YouTube videos sorted to their level, study flashcards, drill verb conjugations, look up full conjugation tables, and learn the grammar behind them.",
+        outcome:
+          "Under active development: a Glicko rating system turns learner votes into CEFR difficulty levels for videos, with new languages and features shipping regularly.",
+        stack: ["Next.js 16", "TypeScript", "React 19", "Vitest", "FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "pytest", "Docker", "AWS Lambda"],
         image: "/dialectrek.png",
         status: "in-development",
         links: [
