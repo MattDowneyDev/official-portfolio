@@ -134,8 +134,6 @@ export const projectGroups: ProjectGroup[] = [
         status: "in-development",
         links: [
           { label: "Live site", url: "https://dialectrek.com/" },
-          { label: "Frontend", url: "https://github.com/mattdowneydev/dialectrek-ui" },
-          { label: "Backend", note: "Proprietary, source closed" },
         ],
       },
       {
@@ -147,7 +145,6 @@ export const projectGroups: ProjectGroup[] = [
         image: "/62moons.png",
         links: [
           { label: "Live site", url: "https://62moonsband.com/" },
-          { label: "View code", url: "https://github.com/mattdowneydev/62-moons" },
         ],
       },
       {
@@ -159,8 +156,6 @@ export const projectGroups: ProjectGroup[] = [
         image: "/grandmascardbox.jpeg",
         links: [
           { label: "Live site", url: "https://grandmascardbox.com/" },
-          { label: "Frontend", url: "https://github.com/mattdowneydev/grandmas-card-box-ui" },
-          { label: "Backend", url: "https://github.com/mattdowneydev/grandmas-card-box-api" },
         ],
       },
     ],
